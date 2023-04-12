@@ -1,0 +1,352 @@
+body {
+	background: #000;
+	background-image: url(images/image.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+  }
+  
+  .box {
+	display: grid;
+	place-items: top;
+	padding-bottom: 80px;
+	padding-top: 40px;
+  }
+  
+  .box p {
+	margin-top: 0px;
+	font-size: 70px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Zen Tokyo Zoo', cursive;
+	max-width: 1000px;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+	color: #ffd9e2;
+	text-shadow: 0 0 0 transparent, 
+	             0 0 10px #ff003c, 
+				 0 0 20px rgba(255, 0, 60, 0.5), 
+				 0 0 40px #ff003c, 
+				 0 0 100px #ff003c, 
+				 0 0 200px #ff003c, 
+				 0 0 300px #ff003c, 
+				 0 0 500px #ff003c, 
+				 0 0 1000px #ff003c;
+
+	animation: animate 3s infinite alternate;
+  }
+
+  @keyframes animate {
+	40% {
+	  opacity: 1;
+	}
+	42% {
+	  opacity: 0.8;
+	}
+	43% {
+	  opacity: 1;
+	}
+	45% {
+	  opacity: 0.3;
+	}
+	46% {
+	  opacity: 1;
+	}
+  }
+  
+  h2 {
+	color: white;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: large;
+	font-family: cursive;
+	text-align: center;
+	font-size: 25px;
+  }
+
+  h2.sides {
+	color: white;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 0;
+	font-size: 25px;
+	font-family: cursive;
+	text-decoration: underline;
+  }
+  
+  h3 {
+	color: #ffd9e2;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	width: 100%;
+	display: block;
+	padding-top: 10px;
+  }
+  
+  p {
+	color: black;
+	font-size: medium;
+	font-family: 'Ubuntu', sans-serif;
+  }
+  
+  div.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+  }
+  .menu_text {
+	text-decoration: underline;
+  }
+  div.item {
+	background-color: rgb(255,0,60, 0.6);
+	color: white;
+	padding: 15px;
+	margin-top: 20px;
+	width: 45%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease;
+	display: flex;
+	flex-direction: row;
+  }
+  
+  div.item:hover {
+	transform: scale(1.03);
+	background-color: rgb(255,0,60);
+	transform: translateY(-5px);
+  }
+  
+  div.item h3 {
+	margin-top: 0px;
+  }
+  
+  div.item p:last-child {
+	margin-bottom: 0px;
+	margin-top: 10px;
+  }
+
+  div.about {
+	background-color: #ffd9e2;
+	color: black;
+	padding: 50px;
+	margin-top: 50px;
+	text-align:center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about_text {
+	font-family:'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: lighter;
+	color: black;
+}
+
+  div.contact {
+	background-color: black;
+	color: white;
+	padding: 50px;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 10px;
+	padding-bottom: 0px;
+  }
+  
+  .contact_text {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+  } 
+.contact_info {
+	color: white;
+}
+  div.contact a:hover {
+  color: #ff003c;
+  text-decoration: none;
+  }
+
+  .item img {
+	max-width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+p.caution {
+	color: red;
+	text-align: center;
+	font-size: 80%;
+	text-decoration: underline;
+}
+  
+/* Media Queries for widtth 320px, 768px, and 1200px */
+
+  @media screen and (max-width: 320px) {
+
+  body {
+	background-size:auto;
+  }
+
+
+  .box{
+	padding: 0 0;
+  }
+
+  .box p {
+  font-size: 30px;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  padding: 30px 0;
+  padding-top: 10px;
+  }
+
+  h2,
+  h2.sides {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-size: medium;
+  }
+
+  h2.sides {
+	margin-top: 35px;
+  }
+
+  div.menu {
+  width: 100%;
+  }
+
+  div.item {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;;
+  }
+
+  .item img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+  }
+
+  p {
+	font-size: 12px;
+  }
+
+  h3 {
+	font-size: 13px;
+	margin-bottom: 0;
+  }
+  
+  div.about {
+	padding: 10px;
+	margin-top: 30px;
+  }
+
+  div.contact{
+	margin-top: 20px;
+	padding: 10px;
+  }
+
+  h2.contact_text {
+	padding-bottom: 5px;
+	text-decoration: underline;
+  }
+
+  p.contact_info {
+	margin: 0 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	
+	body {
+		background-size:auto;
+	  }
+	
+	
+	  .box{
+		padding: 0 0;
+	  }
+	
+	  .box p {
+	  font-size: 40px;
+	  font-family: 'Zen Tokyo Zoo', cursive;
+	  padding: 30px 0;
+	  padding-top: 10px;
+	  }
+	
+	  h2,
+	  h2.sides {
+	  width: 100%;
+	  margin-left: 0;
+	  margin-right: 0;
+	  text-align: center;
+	  font-size: medium;
+	  }
+	
+	  h2.sides {
+		margin-top: 35px;
+	  }
+	
+	  div.menu {
+	  width: 100%;
+	  }
+	
+	  div.item {
+	  width: 100%;
+	  padding: 10px;
+	  margin-top: 10px;;
+	  }
+	
+	  .item img {
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+	  }
+	
+	  p {
+		font-size: 14px;
+	  }
+	
+	  h3 {
+		font-size: 20px;
+		margin-bottom: 0;
+	  }
+	  
+	  div.about {
+		padding: 10px;
+		margin-top: 30px;
+	  }
+	
+	  div.contact{
+		margin-top: 20px;
+		padding: 10px;
+	  }
+	
+	  h2.contact_text {
+		padding-bottom: 5px;
+		text-decoration: underline;
+	  }
+	
+	  p.contact_info {
+		margin: 0 0;
+	  }
+	}
+	
+
