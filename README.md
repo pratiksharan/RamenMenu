@@ -12,7 +12,7 @@ It showcases a clean, modern design for displaying ramen dishes, optimized for d
 ## 🚀 Live Demo
 
 Check out the live site:  
-👉 [https://pratiksharan.github.io/Cute-Ramen-Website/](https://pratiksharan.github.io/Cute-Ramen-Website/)
+👉 [https://pratiksharan.github.io/RamenMenu/](https://pratiksharan.github.io/RamenMenu/)
 
 ## 📸 Screenshot
 
