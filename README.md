@@ -9,14 +9,14 @@ It showcases a clean, modern design for displaying ramen dishes, optimized for d
 - **Clean & Modern UI**: Minimalist, user-friendly layout.  
 - **No JavaScript Needed**: Fully functional using only HTML and CSS.
 
+## 📸 Screenshot
+
+![RamenMenu Screenshot](screenshot.png)
+
 ## 🚀 Live Demo
 
 Check out the live site:  
 👉 [https://pratiksharan.github.io/RamenMenu/](https://pratiksharan.github.io/RamenMenu/)
-
-## 📸 Screenshot
-
-![RamenMenu Screenshot](screenshot.png)
 
 ## 🧠 What I Learned
 
