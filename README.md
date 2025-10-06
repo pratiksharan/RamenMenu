@@ -22,4 +22,4 @@ Check out the live site:
 
 - How to structure a responsive website using **HTML**.  
 - Styling layouts effectively with **CSS**.  
-- Designing a clean interface that is both functional and visually appealing.
+- Designing a clean interface that is both functional and **visually appealing**.
