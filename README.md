@@ -11,7 +11,7 @@ It showcases a clean, modern design for displaying ramen dishes, optimized for d
 
 ## 📸 Screenshot
 
-![RamenMenu Screenshot](screenshot.png)
+![RamenMenu Screenshot](ramen_screenshot.png)
 
 ## 🚀 Live Demo
 
