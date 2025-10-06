@@ -16,7 +16,7 @@ Check out the live site:
 
 ## 📸 Screenshot
 
-![RamenMenu Screenshot](https://github.com/pratiksharan/RamenMenu/blob/main/screenshot.png?raw=true)
+![RamenMenu Screenshot](screenshot.png)
 
 ## 🧠 What I Learned
 
